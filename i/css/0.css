@@ -1,0 +1,33 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap);
+p{
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    color: darkslategray;
+}
+.flex-container {
+    display: flex;
+    cursor: pointer;
+    font-size: 17px;
+    line-height: 30px;
+    align-items: flex-start;
+    max-width: 700px;
+    flex-wrap: wrap;
+}
+.flex-item{
+    min-width: 140px;
+    min-height: 22px;
+    margin: 10px;
+    border: darkseagreen outset;
+    cursor: pointer;
+    text-align: center;
+}
+.flex-item:active{
+    border: darkseagreen inset;
+    cursor: default;
+    opacity: .7;
+}
+.sound_pic{
+    display: none;
+    cursor: pointer;
+}

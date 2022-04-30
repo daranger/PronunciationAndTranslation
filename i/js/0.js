@@ -76,6 +76,14 @@ flex_item.forEach((word)=>{
                 translate = "Грубо";
                 pronunciation = "Рафли";
                 break;
+            case 'Approaches':
+                translate = "Подходы";
+                pronunciation = "əˈprəʊtʃɪz";
+                break;
+            case 'Complicated':
+                translate = "Сложно";
+                pronunciation = "ˈkɒmplɪkeɪtɪd";
+                break;
             default:
                 console.log(word.children[0].textContent);
                 console.log(translate);
